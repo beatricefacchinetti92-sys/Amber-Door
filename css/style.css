@@ -89,5 +89,36 @@ footer {
 }
 
 .content-section {
+  .hero {
+ background-image: linear-gradient(
+   rgba(0,0,0,0.45),
+   rgba(0,0,0,0.45)
+ ),
+ url('../IMG_3701.JPG');
+
+ background-size: cover;
+ background-position: center;
+
+ color: white;
+
+ border-radius: 20px;
+
+ padding: 140px 40px;
+}
+
+.hero h2 {
+ color: white;
+ font-size: 64px;
+}
+
+.hero p {
+ color: white;
+ font-size: 22px;
+}
+
+.button {
+ display: inline-block;
+ margin-top: 20px;
+}
  margin-top: 80px;
 }
